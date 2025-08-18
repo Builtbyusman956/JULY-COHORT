@@ -1,0 +1,31 @@
+/* .title {
+    color: red;
+    font-size: 40px;
+}
+.Title{
+    color: blue;
+ }
+#another{
+    color: brown; 
+}
+ span {
+    color: aquamarine;
+ } */
+.video-desc img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.video-desc{
+    display: flex;
+    
+}
+.author{
+   /* margin-left: 10px;
+   display: flex; 
+   flex-direction: column;
+   padding: 0px; */
+}
+.video-desc h1 p span{
+    margin: 0px;
+}

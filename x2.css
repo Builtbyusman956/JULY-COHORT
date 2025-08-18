@@ -1,0 +1,153 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 70px;
+    
+   
+}
+.f-txt{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.f-txt1{
+    font-weight: bolder;
+    font-size: 30px;
+     margin: 0 0 10px 0;
+}
+.cont-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    padding: 0px;
+    width: 400px;
+    
+}
+.f-btni{
+    height: 20px;
+   
+}
+.f-btn1:hover{
+  background-color: #def1fc;
+   border: solid #cee4f1;
+}
+.f-btn1{
+    height: 45px;
+    width: 300px;
+    border-radius: 30px;
+     outline: none;
+    border: solid rgb(215, 212, 212);
+}
+.f-btn2{
+    height: 45px;
+    width: 300px;
+    border-radius: 30px;
+     border: solid rgb(215, 212, 212);
+}
+.f-btn2:hover{
+    background-color: rgb(205, 204, 204);
+}
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #777; 
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 0.35;
+  border-bottom: 1px solid #ccc; 
+}
+
+.divider::before {
+  margin-right: 10px;
+}
+
+.divider::after {
+  margin-left: 10px;
+}
+.f-btn3{
+    height: 45px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: #1d9bf0;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.f-btn3:hover{
+    background-color: #0888dd;
+}
+.f-btn4{
+    height: 45px;
+    width: 300px;
+    border-radius: 30px;
+    color: #1d9bf0;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    outline: none;
+    border: solid rgb(215, 212, 212);
+}
+.f-btn4:hover{
+    background-color: #d0ecff;
+}
+p a{
+    text-decoration: none;
+    color: #1d9bf0;
+}
+p a:hover{
+    text-decoration: underline;
+}
+.text{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+footer{
+   margin-top: 90px;
+   text-decoration: none;
+   font-size: 15px;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin-top: 290px;
+  
+   
+}
+footer a{
+    cursor: pointer;
+    color: #566673;
+    text-decoration: none;
+    display: flex;
+    font-size: smaller;
+
+    
+   
+   
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+ .ltext{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #566673;
+    font-size: smaller;
+ }
+.divider1{
+     color: #566673;
+     user-select: none;
+}

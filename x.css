@@ -1,0 +1,126 @@
+body{
+    background-color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 190px;
+}
+section{
+   width: 390px;
+  padding: 5px 110px;
+  background-color: #ffffff;
+  /* margin-left: 350px; */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+}
+.sec-logo{
+    width: 100px;
+    margin-left: 130px;
+    
+}
+.head{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.icon-btn{
+    width: 20px;
+}
+.sec-btn{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+#fir-btn{
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: solid rgb(207, 206, 206);
+    background-color: white;
+}
+#fir-btn:hover{
+   background-color:rgb(228, 238, 247); 
+   border: solid rgb(120, 183, 238) ;
+}
+#sec-btn2{
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: solid rgb(207, 206, 206);
+    background-color: white;
+}
+#sec-btn2:hover{
+   background-color:rgb(214, 214, 214); 
+   border: solid whitesmoke ;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #777; 
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc; 
+}
+
+.divider::before {
+  margin-right: 10px;
+}
+
+.divider::after {
+  margin-left: 10px;
+}
+input{
+    height: 70px;
+    border-radius: 5px;
+}
+#secd-btn{
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: solid rgb(207, 206, 206);
+    background-color: black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 1rem;
+}
+#secd-btn:hover{
+   background-color: rgb(33, 33, 33); 
+   border: solid whitesmoke ;
+}
+#secd-btn2{
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: solid rgb(207, 206, 206);
+    background-color: white;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 1rem;
+}
+#secd-btn2:hover{
+   background-color: whitesmoke; 
+   border: solid whitesmoke ;
+}
+#text{
+    color: #999999;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    
+}
+p a{
+     text-decoration: none;
+}
+    
+    

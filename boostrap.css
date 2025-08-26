@@ -1,0 +1,28 @@
+footer{
+    background-color: black;
+    color: white;
+     padding: 40px;
+}
+.footers{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+  
+}
+.footers div{
+    display: flex;
+    flex-direction: column;
+}
+.footers div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footers div ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.big-input{
+    height: 100px;
+}
